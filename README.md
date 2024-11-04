@@ -1,2 +1,3 @@
 # CvzoneGestureQuiz
-A Computer Vision Quiz app using the cvzone library, where users answer questions through hand gestures. This touch-free, interactive quiz makes learning engaging with gesture-based controls powered by computer vision.
+
+This project is a Computer Vision Quiz application that uses hand gesture recognition to answer questions, built with the `cvzone` library. Leveraging hand tracking technology, users can interact with quiz questions by making specific gestures, creating a touch-free and engaging quiz experience. This innovative approach makes learning more interactive by combining computer vision and intuitive gesture-based controls.
