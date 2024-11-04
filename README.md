@@ -10,20 +10,21 @@ This innovative quiz application combines computer vision with gesture-based con
 
 The project uses a dataset of multiple-choice questions in CSV format (Mcqs.csv). The file includes:
 
-Questions
-Answer Choices
-Correct Answers
+- Questions
+- Answer Choices
+- Correct Answers
+
 The questions are displayed one at a time, and users can answer by making specific hand gestures.
 
 ## Running the Application
-Camera Access: Ensure that your webcam is accessible, as the application relies on real-time hand tracking.
-Gestures: Each question presents multiple choices, and you answer by showing a specific hand gesture corresponding to your selected choice. Details of gestures and their corresponding actions are outlined in the notebook.
+- Camera Access: Ensure that your webcam is accessible, as the application relies on real-time hand tracking.
+- Gestures: Each question presents multiple choices, and you answer by showing a specific hand gesture corresponding to your selected choice. Details of gestures and their corresponding actions are outlined in the notebook.
 
 ## Technical Details
 
-Hand Tracking: The application uses the cvzone library, which is built on top of mediapipe, to detect and track hand gestures in real-time.
-Gesture Recognition: Each gesture corresponds to a choice, allowing users to select answers without physical touch.
-Feedback: The application provides immediate feedback on whether the selected answer is correct.
+- Hand Tracking: The application uses the cvzone library, which is built on top of mediapipe, to detect and track hand gestures in real-time.
+- Gesture Recognition: Each gesture corresponds to a choice, allowing users to select answers without physical touch.
+- Feedback: The application provides immediate feedback on whether the selected answer is correct.
 
 ## License
 
